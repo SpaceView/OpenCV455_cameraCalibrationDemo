@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ImportGroup Label="PropertySheets" />
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup />
+  <ItemDefinitionGroup>
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\OpenCV455\opencv-4.5.5\include;D:\OpenCV455\dev;D:\OpenCV455\opencv-4.5.5\modules\features2d\include;D:\OpenCV455\opencv-4.5.5\modules\core\include;D:\OpenCV455\opencv-4.5.5\modules\flann\include;D:\OpenCV455\opencv-4.5.5\modules\imgproc\include;D:\OpenCV455\opencv-4.5.5\modules\highgui\include;D:\OpenCV455\opencv-4.5.5\modules\photo\include;D:\OpenCV455\opencv-4.5.5\modules\video\include;D:\OpenCV455\opencv-4.5.5\modules\videoio\include;D:\OpenCV455\opencv-4.5.5\modules\objdetect\include;D:\OpenCV455\opencv-4.5.5\modules\python\include;D:\OpenCV455\opencv-4.5.5\modules\shape\include;D:\OpenCV455\opencv-4.5.5\modules\calib3d\include;D:\OpenCV455\opencv-4.5.5\modules\imgcodecs\include;D:\OpenCV455\opencv-4.5.5\modules\ml\include;D:\OpenCV455\opencv-4.5.5\modules\dnn\include;D:\OpenCV455\opencv-4.5.5\modules\stitching\include;D:\OpenCV455\opencv-4.5.5\modules\superres\include;D:\OpenCV455\opencv-4.5.5\modules\videostab\include;D:\OpenCV455\opencv_contrib-4.5.5\modules\xfeatures2d\include;D:\OpenCV455\opencv_contrib-4.5.5\modules\ximgproc\include;D:\OpenCV455\opencv_contrib-4.5.5\modules\videostab\include;D:\OpenCV455\opencv_contrib-4.5.5\modules\superres\include;D:\OpenCV455\opencv_contrib-4.5.5\modules\shape\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>opencv_world455d.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>D:\OpenCV455\dev\bin\share;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup />
+</Project>
